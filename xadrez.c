@@ -10,11 +10,13 @@ int main() { //Iniciar
     int casasBispo = 5; //Cinco casas a direita+cima diagonal
     int casasRainha = 8; //Oito casas para esquerda
 
+    //Estrutura FOR
     printf("Movimentando a Torre:\n"); //Escrever isto na tela "movimento da torre"
     for (int i = 0; i < casasTorre; i++) { // Condição enquanto "i igual a zero e menor que cinco(casasBispo=5)"
         printf("Direita\n"); //Escreva direita,pular linha.
     }
-
+    
+    //Estrutura WHILE
     printf("\nMovimentando o Bispo:\n"); //Escrever movimentando o Bispo
     int i = 0; // i igual a zero
     while (i < casasBispo) { //Quando i for menor 5(casastorre=5)
@@ -22,6 +24,7 @@ int main() { //Iniciar
         i++; //Incremento mais 1 a i
     }
 
+    //Estrutura DO-WHILE 
     printf("\nMovimentando a Rainha:\n");//Escrever movimentando a rainha
     int j = 0; //Inteiro J igual a zero
     do { //Faça
