@@ -32,5 +32,22 @@ int main() { //Iniciar
         j++; //Incremente mais um a J
     } while (j < casasRainha); //quando J menor que 8(casasRainha=8)
 
-    return 0;  //Terminar 
-} 
+    // Agora adicionando o movimento do Cavalo, usando FOR e WHILE
+    printf("\nMovimentando o Cavalo:\n"); //Escrever movimentando o cavalo
+
+    int movimentosBaixo = 2; //Declara valor de variável para baixo
+    int movimentosEsquerda = 1;//Declara valor de variável para esquerda
+
+     //Estrutura for para movimentos para baixo
+     for (int k = 0; k < movimentosBaixo; k++) { 
+        printf("Baixo\n"); //Escrever baixo
+    }
+    //Estrutura while para movimentos para esquerda
+    int l = 0; //Inteiro l igual 0
+    while (l < movimentosEsquerda) {
+        printf("Esquerda\n"); //Escrever esquerda
+        l++; //Acrescimo em l
+    }
+
+    return 0; //Terminar
+}
