@@ -1,5 +1,5 @@
-# XADREZ EM C
-# Desenvolvendo a Lógica do Jogo
+# Desafio de Xadrez - MateCheck
+# Estruturas de repetição e funções avançadas.
 </div>
   <div style="display: inline_block"><br>
   <img height="250" width="850" src="https://www.torneiosdexadrez.com.br/wp-content/uploads/2023/12/jogando-xadrez-720x380.png" />
